@@ -1,0 +1,58 @@
+{
+    "accuracy": 0.9033,
+    "classification_report": {
+        "High Risk": {
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1-score": 0.8888888888888888,
+            "support": 10.0
+        },
+        "Low Risk": {
+            "precision": 0.8916256157635468,
+            "recall": 0.9731182795698925,
+            "f1-score": 0.9305912596401028,
+            "support": 186.0
+        },
+        "Medium Risk": {
+            "precision": 0.9213483146067416,
+            "recall": 0.7884615384615384,
+            "f1-score": 0.8497409326424871,
+            "support": 104.0
+        },
+        "accuracy": 0.9033333333333333,
+        "macro avg": {
+            "precision": 0.9376579767900961,
+            "recall": 0.8538599393438103,
+            "f1-score": 0.8897403603904929,
+            "support": 300.0
+        },
+        "weighted avg": {
+            "precision": 0.9055419641704028,
+            "recall": 0.9033333333333333,
+            "f1-score": 0.9011730672558889,
+            "support": 300.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            8,
+            0,
+            2
+        ],
+        [
+            0,
+            181,
+            5
+        ],
+        [
+            0,
+            22,
+            82
+        ]
+    ],
+    "labels": [
+        "High Risk",
+        "Low Risk",
+        "Medium Risk"
+    ]
+}
